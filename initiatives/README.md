@@ -11,7 +11,7 @@ Every initiative must begin with a precise problem and observable facts that wil
 Give every initiative its own directory:
 
 ```text
-initiative/
+initiatives/
 └── initiative-name/
     └── initiative-name.initiative.md
 ```

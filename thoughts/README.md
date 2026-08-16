@@ -11,7 +11,7 @@ Give every thought its own directory:
 ```text
 thoughts/
 └── thought-name/
-    ├── thought-name.explore.md
+    ├── thought-name.thought.md
     └── supporting-files...
 ```
 
