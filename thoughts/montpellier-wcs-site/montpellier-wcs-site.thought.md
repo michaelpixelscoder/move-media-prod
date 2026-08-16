@@ -1,6 +1,6 @@
 ---
 title: "Montpellier WCS community website"
-status: exploring
+status: testing
 created: 2026-08-16
 updated: 2026-08-16
 owners:
@@ -239,10 +239,15 @@ Run a small discovery audit before designing the website:
 4. Speak with at least one newcomer, one regular dancer, and two local professionals about how they find and publish information.
 5. Decide which single audience and information problem has the strongest evidence.
 
-The next decision is whether there is enough observed friction and stakeholder support to define a small initiative with measurable completion criteria.
+This experiment is now Milestone 1 of the resulting initiative. Its findings will confirm or revise the launch scope, baselines, provider-coverage target, and stop conditions before public release.
 
 ## Decision log
 
 | Date | Decision | Reason |
 | --- | --- | --- |
 | 2026-08-16 | Initial exploration created | Assess a Montpellier WCS community website as an early Move Media project |
+| 2026-08-16 | Promote the exploration to a planned initiative | Proceed with a staged build while testing demand, contributor participation, freshness, and maintenance assumptions |
+
+## Resulting initiative
+
+The work is now planned in [Launch the Montpellier WCS community website](../../initiative/montpellier-wcs-site/montpellier-wcs-site.initiative.md). This thought remains the research and assumptions record; the initiative owns delivery, tests, release measurements, and stop conditions.
