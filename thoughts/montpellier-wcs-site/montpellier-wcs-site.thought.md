@@ -207,12 +207,15 @@ Any commercial model must make sponsorship and paid placement transparent and mu
 
 - The broader Move Media project has identified local community websites as a plausible entry project
 - Movement communities commonly coordinate several types of classes and events, creating an information-management problem worth investigating
+- An initial public-web audit found current WCS activity distributed across independent school sites, municipal directories, HelloAsso, Meetup, event aggregators, and social media. See [Montpellier-area WCS actors — online audit](wcs-actors-online-audit.md).
+- Current public sources identify recurring or recent activity in Montpellier, Mauguio, Milhaud, Saint-Thibéry, Saint-Aunès, Saint-Gély-du-Fesc, Saint-Jean-de-Védas, and Fabrègues. No actor was confirmed yet in Baillargues or Vendargues.
+- A volunteer “WCS Montpellier” aggregation website previously attempted to collect courses, socials, stages, and events, but its visible archive ends in 2017. This is evidence both of prior perceived value and of the sustainability risk.
 
 These points motivate research but do not yet validate the Montpellier-specific need.
 
 ### Contradicting
 
-- No Montpellier-specific discovery audit or user interviews have been recorded yet
+- Only an initial public-source discovery audit has been recorded; no user or actor interviews have been conducted yet
 - Existing community channels may already solve the problem well enough
 - Community members may prefer private groups, personal recommendations, or established social platforms
 - Maintaining accurate information may cost more time than the value the project creates
@@ -251,3 +254,4 @@ This experiment is now Milestone 1 of the resulting initiative. Its findings wil
 ## Resulting initiative
 
 The work is now planned in [Launch the Montpellier WCS community website](../../initiative/montpellier-wcs-site/montpellier-wcs-site.initiative.md). This thought remains the research and assumptions record; the initiative owns delivery, tests, release measurements, and stop conditions.
+| 2026-08-16 | Initial actor and source audit added | Establish the visible ecosystem, geographic coverage, information channels, and verification gaps before product design |
