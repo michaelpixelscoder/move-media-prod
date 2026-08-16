@@ -1,9 +1,9 @@
 ---
 title: "Launch the Montpellier WCS community website"
-status: planned
+status: active
 owner: michael
 created: 2026-08-16
-updated: 2026-08-16
+updated: 2026-08-17
 target_date: 2026-09-30
 budget: null
 related_thoughts:
@@ -423,7 +423,7 @@ Every dynamic state also needs reviewed microcopy: no results, filtered-out favo
 | 3. Select technical stack and operating budget | Documented choices for web framework, database, auth, maps, search, hosting, analytics, media storage, backups, and monitoring | Milestones 1–2 | pending | Decision record includes recurring cost and export/exit path |
 | 4. Finalize design system and responsive flows | Approved homepage, planning, map, agenda, event, auth, favorites, contribution, and admin flows | Existing mockups; Milestone 2 | pending | Desktop/mobile states cover loading, empty, stale, cancelled, unauthorized and error cases |
 | 5. Produce copy deck and media plan | Draft then approved French copy for all public, trust, legal, authentication and contributor surfaces; badge/hero shot list, fallbacks and rights workflow | Milestone 2; factual interviews | pending | Draft Discover and Community Rules copy exists by 2026-08-23; all Section 5.4 tasks and launch media are approved before public release |
-| 6. Scaffold application and delivery pipeline | Reproducible local app, environments, CI, preview deployments, migrations and seed data | Milestone 3 | pending | Clean checkout installs, migrates, seeds, builds and tests from documented commands |
+| 6. Scaffold application and delivery pipeline | Reproducible local app, environments, CI, preview deployments, migrations and seed data | Milestone 3 | active | Clean checkout installs, migrates, seeds, builds and tests from documented commands |
 | 7. Implement authentication and authorization | Login/logout, user badge, roles, suspension, ownership guards and audit logging | Milestone 6 | pending | Full permission matrix passes automated tests; negative ownership tests included |
 | 8. Implement reference and listing data | Actors without type enums, actor-role relations, places and listing-place relations, levels, seasons, listings, schedules, occurrences, badge/hero media, source/freshness/status fields | Milestones 6–7 | pending | Migrations prove multiple teachers, studio owners, event organizers and places; map fixtures resolve the exact schedule/occurrence place |
 | 9. Implement contributor and admin tools | Contributor CRUD for owned classes/events and linked actor profile; relation management on owned listings; admin global CRUD, actor-user assignment, studio owners, roles, requests and disputes | Milestones 7–8 | pending | Two seeded contributors cannot access each other’s writes or actors; linked actor user can edit only that actor; admin can manage all |
@@ -536,6 +536,8 @@ Expected result:
 | 2026-08-16 | Add explicit listing-place, schedule-place and occurrence-place relations | Classes and events must resolve to the correct place coordinates in planning and date-specific map results |
 | 2026-08-16 | Support badge and hero media on display entities | Actors, places, classes, events and editorial pages need consistent compact and detail imagery with rights and accessibility metadata |
 | 2026-08-16 | Set staged delivery deadlines | Internal v1 is due 2026-08-23, actor review by 2026-08-31, and public launch during September no later than 2026-09-30 |
+| 2026-08-17 | Start the initiative with an ignored nested application repository | Keep planning records and the independently versioned `projects/wcsmontpellier-site` checkout together. The parent ignores `/projects/`; ordinary parent checkout, reset, and clean operations leave it untouched, while `git clean -ffdx` remains an accepted explicit risk |
+| 2026-08-17 | Select the initial application stack | Use Vite, React and TypeScript with Convex for data, authentication and storage; Tailwind and shadcn for interface primitives; and MapLibre for maps |
 
 ## 10. Closure
 
